@@ -15,7 +15,7 @@ This app uses the following libraries:
 This mobile app was developed and tested mainly on iOS (but should run on Android too).  In order to install the required dependencies and start the app, please following the follow steps:
 1. Clone project into local folder and navigate to it on CLI.
 2. Run `npm install` (assuming you have node installed)
-3. Run `npx pod-install ios` (or change directory to `/ios` and run `pod install`.
+3. Run `npx pod-install ios` (or change directory to `/ios` and run `pod install`).
 4. Return to the root directory and run `npm run ios`.
 5. The app should build and automatically open your iOS simulator.
 
