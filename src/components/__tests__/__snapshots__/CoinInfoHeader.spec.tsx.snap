@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoinInfoHeader component should match snapshot render with defined props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#212121",
+        "flexDirection": "row",
+      },
+      Object {
+        "paddingVertical": 8,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+    testID="testID_sort_by_name"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#808080",
+          "fontSize": 16,
+        }
+      }
+    >
+      Coin
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/dropdown.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 24,
+            "tintColor": "grey",
+            "width": 24,
+          },
+          Object {
+            "transform": Array [
+              Object {
+                "scaleY": -1,
+              },
+            ],
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingRight": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#808080",
+          "fontSize": 16,
+        }
+      }
+    >
+      Price
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#808080",
+          "fontSize": 16,
+        }
+      }
+    >
+      Value
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/info.png",
+        }
+      }
+      style={
+        Object {
+          "height": 20,
+          "marginLeft": 8,
+          "tintColor": "#5C5C5C",
+          "width": 20,
+        }
+      }
+    />
+  </View>
+</View>
+`;

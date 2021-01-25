@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCoinModal component should match snapshot rendering given defined props 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  presentationStyle="formSheet"
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#1c1c1c",
+        "flex": 1,
+        "padding": 12,
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Back
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "margin": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Please select a coin to add to list:
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        collapsable={false}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        placeholder="Enter cryptocurrency name..."
+        placeholderTextColor="#808080"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+            "borderRadius": 8,
+            "color": "#000",
+            "fontSize": 18,
+            "height": 40,
+            "marginTop": 12,
+            "padding": 4,
+            "width": 675,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+  </View>
+</Modal>
+`;

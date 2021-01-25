@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingIndicator component should match snapshot rendering 1`] = `
+<Image
+  source={
+    Object {
+      "testUri": "../../../src/assets/btc_logo.png",
+    }
+  }
+  style={
+    Object {
+      "height": 80,
+      "transform": Array [
+        Object {
+          "rotate": "0deg",
+        },
+      ],
+      "width": 80,
+    }
+  }
+/>
+`;

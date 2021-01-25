@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoinInfoItem component should match snapshot render with defined props for negative change 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "minHeight": 64,
+    }
+  }
+  testID="testID_BTC"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/btc_logo.png",
+        }
+      }
+      style={
+        Object {
+          "height": 24,
+          "margin": 12,
+          "width": 24,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        }
+      }
+    >
+      BTC
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "column",
+        },
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-start",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        }
+      }
+    >
+      $12.12
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+          },
+          Object {
+            "color": "green",
+          },
+        ]
+      }
+    >
+      --3.25%
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "column",
+        },
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-start",
+          "paddingRight": 16,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        }
+      }
+    >
+      $2436.14
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+          },
+          Object {
+            "color": "grey",
+          },
+        ]
+      }
+    >
+      201
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CoinInfoItem component should match snapshot render with defined props for positive change 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "minHeight": 64,
+    }
+  }
+  testID="testID_BTC"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/btc_logo.png",
+        }
+      }
+      style={
+        Object {
+          "height": 24,
+          "margin": 12,
+          "width": 24,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        }
+      }
+    >
+      BTC
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "column",
+        },
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-start",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        }
+      }
+    >
+      $12.12
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+          },
+          Object {
+            "color": "green",
+          },
+        ]
+      }
+    >
+      +4.99%
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "column",
+        },
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-start",
+          "paddingRight": 16,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        }
+      }
+    >
+      $2436.14
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+          },
+          Object {
+            "color": "grey",
+          },
+        ]
+      }
+    >
+      201
+    </Text>
+  </View>
+</View>
+`;

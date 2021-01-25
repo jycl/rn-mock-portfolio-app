@@ -1,0 +1,3377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioScreen should match snapshot with coin graph and isLoading is false 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginHorizontal": 16,
+          "marginVertical": 8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 32,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Portfolio
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 32,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        +
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    XRP
+  </Text>
+  <View
+    style={Object {}}
+  >
+    <RNSVGSvgView
+      bbHeight={333.5}
+      bbWidth={750}
+      focusable={false}
+      height={333.5}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "flex": 0,
+            "height": 333,
+            "width": 750,
+          },
+        ]
+      }
+      width={750}
+    >
+      <RNSVGGroup>
+        <RNSVGRect
+          fill={
+            Array [
+              1,
+              "backgroundGradient",
+            ]
+          }
+          fillOpacity={1}
+          height={333.5}
+          propList={
+            Array [
+              "fill",
+              "fillOpacity",
+            ]
+          }
+          rx={0}
+          ry={0}
+          width="100%"
+          x={0}
+          y={0}
+        />
+        <RNSVGGroup
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+            ]
+          }
+        >
+          <RNSVGDefs>
+            <RNSVGLinearGradient
+              gradient={
+                Array [
+                  0,
+                  1976611,
+                  1,
+                  -2146954483,
+                ]
+              }
+              gradientTransform={null}
+              gradientUnits={1}
+              name="backgroundGradient"
+              x1={0}
+              x2={750}
+              y1={333.5}
+              y2={0}
+            />
+            <RNSVGLinearGradient
+              gradient={
+                Array [
+                  0,
+                  437976978,
+                  1,
+                  1769362,
+                ]
+              }
+              gradientTransform={null}
+              gradientUnits={1}
+              name="fillShadowGradient"
+              x1={0}
+              x2={0}
+              y1={0}
+              y2={333.5}
+            />
+          </RNSVGDefs>
+          <RNSVGGroup>
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={64}
+              x2={750}
+              y1={16}
+              y2={16}
+            />
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={64}
+              x2={750}
+              y1={78.53125}
+              y2={78.53125}
+            />
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={64}
+              x2={750}
+              y1={141.0625}
+              y2={141.0625}
+            />
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={64}
+              x2={750}
+              y1={203.59375}
+              y2={203.59375}
+            />
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={64}
+              x2={750}
+              y1={266.125}
+              y2={266.125}
+            />
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "end",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  52,
+                ]
+              }
+              y={
+                Array [
+                  266.125,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="4.00"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "end",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  52,
+                ]
+              }
+              y={
+                Array [
+                  203.59375,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="4.50"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "end",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  52,
+                ]
+              }
+              y={
+                Array [
+                  141.0625,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="5.00"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "end",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  52,
+                ]
+              }
+              y={
+                Array [
+                  78.53125,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="5.50"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "end",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  52,
+                ]
+              }
+              y={
+                Array [
+                  16,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="6.00"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={64}
+              x2={64}
+              y1={0}
+              y2={266.125}
+            />
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={292}
+              x2={292}
+              y1={0}
+              y2={266.125}
+            />
+            <RNSVGLine
+              propList={
+                Array [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                ]
+              }
+              stroke={857407378}
+              strokeDasharray={
+                Array [
+                  "5",
+                  "10",
+                ]
+              }
+              strokeWidth={1}
+              x1={521}
+              x2={521}
+              y1={0}
+              y2={266.125}
+            />
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  64,
+                ]
+              }
+              y={
+                Array [
+                  290.125,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="1"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  292.66666666666663,
+                ]
+              }
+              y={
+                Array [
+                  290.125,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="2"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={3424321426}
+              font={
+                Object {
+                  "fontSize": 12,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  1,
+                  0,
+                  -0,
+                  1,
+                  0,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  521.3333333333333,
+                ]
+              }
+              y={
+                Array [
+                  290.125,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="3"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M64 266.125 292.66666666666663 141.0625 521.3333333333333 16"
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              stroke={857407378}
+              strokeWidth={2}
+            />
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M64 266.125 292.66666666666663 141.0625 521.3333333333333 16 521.3333333333333 266.125 64 266.125z"
+              fill={
+                Array [
+                  1,
+                  "fillShadowGradient",
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "strokeWidth",
+                ]
+              }
+              strokeWidth={0}
+            />
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGCircle
+              cx={64}
+              cy={266.125}
+              fill={3860529042}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r="4"
+              responsible={true}
+            />
+            <RNSVGCircle
+              cx={64}
+              cy={266.125}
+              fill={4294967295}
+              fillOpacity={0}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              propList={
+                Array [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+              r="14"
+              responsible={true}
+            />
+            <RNSVGCircle
+              cx={292.66666666666663}
+              cy={141.0625}
+              fill={3860529042}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r="4"
+              responsible={true}
+            />
+            <RNSVGCircle
+              cx={292.66666666666663}
+              cy={141.0625}
+              fill={4294967295}
+              fillOpacity={0}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              propList={
+                Array [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+              r="14"
+              responsible={true}
+            />
+            <RNSVGCircle
+              cx={521.3333333333333}
+              cy={16}
+              fill={3860529042}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r="4"
+              responsible={true}
+            />
+            <RNSVGCircle
+              cx={521.3333333333333}
+              cy={16}
+              fill={4294967295}
+              fillOpacity={0}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              propList={
+                Array [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+              r="14"
+              responsible={true}
+            />
+          </RNSVGGroup>
+          <RNSVGGroup />
+          <RNSVGGroup />
+        </RNSVGGroup>
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#212121",
+          "flexDirection": "row",
+        },
+        Object {
+          "paddingVertical": 8,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      testID="testID_sort_by_name"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#808080",
+            "fontSize": 16,
+          }
+        }
+      >
+        Coin
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/dropdown.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 24,
+              "tintColor": "grey",
+              "width": 24,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "scaleY": -1,
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingRight": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#808080",
+            "fontSize": 16,
+          }
+        }
+      >
+        Price
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#808080",
+            "fontSize": 16,
+          }
+        }
+      >
+        Value
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/info.png",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "marginLeft": 8,
+            "tintColor": "#5C5C5C",
+            "width": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "change24hour": 3.96,
+          "history": "mock",
+          "name": "BTC",
+          "price": "7980.68431312",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 4.78,
+          "history": "mock",
+          "name": "ETH",
+          "price": "245.97123121",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 4.28,
+          "history": "mock",
+          "name": "LTC",
+          "price": "1.57213123",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 2.67,
+          "history": "mock",
+          "name": "XRP",
+          "price": "0.39845321",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 4.26,
+          "history": "mock",
+          "name": "BCH",
+          "price": "1.59845321",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 2.67,
+          "history": "mock",
+          "name": "USDT",
+          "price": "1.00000010",
+          "quantity": "123.10",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "coinList": Array [
+          Object {
+            "change24hour": 3.96,
+            "history": "mock",
+            "name": "BTC",
+            "price": "7980.68431312",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 4.78,
+            "history": "mock",
+            "name": "ETH",
+            "price": "245.97123121",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 4.28,
+            "history": "mock",
+            "name": "LTC",
+            "price": "1.57213123",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 2.67,
+            "history": "mock",
+            "name": "XRP",
+            "price": "0.39845321",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 4.26,
+            "history": "mock",
+            "name": "BCH",
+            "price": "1.59845321",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 2.67,
+            "history": "mock",
+            "name": "USDT",
+            "price": "1.00000010",
+            "quantity": "123.10",
+          },
+        ],
+        "selectedCoinGraph": Object {
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "data": Array [
+                  4,
+                  5,
+                  6,
+                ],
+              },
+            ],
+            "labels": Array [
+              "1",
+              "2",
+              "3",
+            ],
+          },
+          "name": "XRP",
+        },
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    testID="coinList"
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_BTC"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/btc_logo.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              BTC
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              7980.68431312
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +3.96%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              982422.2389450719
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_ETH"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/eth.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              ETH
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              245.97123121
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +4.78%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              30279.058561951002
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_LTC"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/ltc.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              LTC
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              1.57213123
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +4.28%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              193.529354413
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_XRP"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/xrp.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              XRP
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              0.39845321
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +2.67%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              49.049590151
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_BCH"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/bch.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              BCH
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              1.59845321
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +4.26%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              196.769590151
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_USDT"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/usdt.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              USDT
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              1.00000010
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +2.67%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              123.10001231
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`PortfolioScreen should match snapshot with coin list data while isLoading is false 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginHorizontal": 16,
+          "marginVertical": 8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 32,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Portfolio
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 32,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        +
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#1c1c1c",
+        "borderRadius": 12,
+        "height": 333.5,
+        "justifyContent": "center",
+        "margin": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 16,
+        }
+      }
+    >
+      Please select cryptocurrency for more details
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#212121",
+          "flexDirection": "row",
+        },
+        Object {
+          "paddingVertical": 8,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      testID="testID_sort_by_name"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#808080",
+            "fontSize": 16,
+          }
+        }
+      >
+        Coin
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/dropdown.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 24,
+              "tintColor": "grey",
+              "width": 24,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "scaleY": -1,
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingRight": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#808080",
+            "fontSize": 16,
+          }
+        }
+      >
+        Price
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#808080",
+            "fontSize": 16,
+          }
+        }
+      >
+        Value
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/info.png",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "marginLeft": 8,
+            "tintColor": "#5C5C5C",
+            "width": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "change24hour": 3.96,
+          "history": "mock",
+          "name": "BTC",
+          "price": "7980.68431312",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 4.78,
+          "history": "mock",
+          "name": "ETH",
+          "price": "245.97123121",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 4.28,
+          "history": "mock",
+          "name": "LTC",
+          "price": "1.57213123",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 2.67,
+          "history": "mock",
+          "name": "XRP",
+          "price": "0.39845321",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 4.26,
+          "history": "mock",
+          "name": "BCH",
+          "price": "1.59845321",
+          "quantity": "123.10",
+        },
+        Object {
+          "change24hour": 2.67,
+          "history": "mock",
+          "name": "USDT",
+          "price": "1.00000010",
+          "quantity": "123.10",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "coinList": Array [
+          Object {
+            "change24hour": 3.96,
+            "history": "mock",
+            "name": "BTC",
+            "price": "7980.68431312",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 4.78,
+            "history": "mock",
+            "name": "ETH",
+            "price": "245.97123121",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 4.28,
+            "history": "mock",
+            "name": "LTC",
+            "price": "1.57213123",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 2.67,
+            "history": "mock",
+            "name": "XRP",
+            "price": "0.39845321",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 4.26,
+            "history": "mock",
+            "name": "BCH",
+            "price": "1.59845321",
+            "quantity": "123.10",
+          },
+          Object {
+            "change24hour": 2.67,
+            "history": "mock",
+            "name": "USDT",
+            "price": "1.00000010",
+            "quantity": "123.10",
+          },
+        ],
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+    testID="coinList"
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_BTC"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/btc_logo.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              BTC
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              7980.68431312
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +3.96%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              982422.2389450719
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_ETH"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/eth.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              ETH
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              245.97123121
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +4.78%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              30279.058561951002
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_LTC"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/ltc.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              LTC
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              1.57213123
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +4.28%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              193.529354413
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_XRP"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/xrp.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              XRP
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              0.39845321
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +2.67%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              49.049590151
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_BCH"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/bch.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              BCH
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              1.59845321
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +4.26%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              196.769590151
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#1c1c1c",
+              "height": 2,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "minHeight": 64,
+            }
+          }
+          testID="testID_USDT"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/usdt.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "margin": 12,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              USDT
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              1.00000010
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "green",
+                  },
+                ]
+              }
+            >
+              +2.67%
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "flexDirection": "column",
+                },
+                Object {
+                  "flex": 1,
+                  "justifyContent": "flex-start",
+                  "paddingRight": 16,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                }
+              }
+            >
+              123.10001231
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "color": "grey",
+                  },
+                ]
+              }
+            >
+              123.10
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`PortfolioScreen should match snapshot with coin list data while isLoading is true 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginHorizontal": 16,
+          "marginVertical": 8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 32,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Portfolio
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/btc_logo.png",
+        }
+      }
+      style={
+        Object {
+          "height": 80,
+          "transform": Array [
+            Object {
+              "rotate": "0deg",
+            },
+          ],
+          "width": 80,
+        }
+      }
+    />
+  </View>
+</View>
+`;

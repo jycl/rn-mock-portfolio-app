@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowPair component should match snapshot given defined props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flexDirection": "column",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+      }
+    }
+  >
+    Boss
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+        },
+        Object {
+          "color": undefined,
+        },
+      ]
+    }
+  >
+    Underling
+  </Text>
+</View>
+`;
+
+exports[`RowPair component should match snapshot given defined style props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-end",
+        "flexDirection": "column",
+      },
+      Object {
+        "borderRadius": 12,
+        "padding": 16,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 18,
+      }
+    }
+  >
+    Rainbow
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  >
+    Pot of gold
+  </Text>
+</View>
+`;
